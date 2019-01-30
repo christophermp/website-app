@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "dgram-browserify": "0.0.13",
+    "net-snmp": "^1.2.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
