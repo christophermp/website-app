@@ -11,6 +11,7 @@ import {
   Form,
   FormControl
 } from "react-bootstrap";
+
 class App extends Component {
   render() {
     return (
@@ -19,11 +20,11 @@ class App extends Component {
           <Col>
             {" "}
             <Navbar bg="dark" variant="dark">
-              <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+              <Navbar.Brand href="#home">Odeon AUM</Navbar.Brand>
               <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="#pricing">Automasjon</Nav.Link>
               </Nav>
               <Form inline>
                 <FormControl
@@ -37,25 +38,7 @@ class App extends Component {
           </Col>
         </Row>
         <Row>
-          <Col>
-            {" "}
-            <Navbar bg="dark" variant="dark">
-              <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-              <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-              </Nav>
-              <Form inline>
-                <FormControl
-                  type="text"
-                  placeholder="Search"
-                  className="mr-sm-2"
-                />
-                <Button variant="outline-info">Search</Button>
-              </Form>
-            </Navbar>
-          </Col>
+          <Col>1 of 1</Col>
           <Col>2 of 2</Col>
         </Row>
         <Row>
